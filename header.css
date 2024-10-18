@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html
+{
+  scroll-behavior: smooth;
+
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-family: "roboto";
+  color: rgb(90, 87, 87);
+  overflow-x: hidden;
+  position: relative;
+  /*padding-top: 105px;*/
+}
+
+/*nav bar styles*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  padding: 15px 20px;
+  transition: all 0.5s;
+ 
+}
+
+/*set the nav bar to fixed position*/
+.fixed
+{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 100;
+  background-color: white;
+  z-index: 1000;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 260px;
+  padding-left: 40px;
+ 
+}
+
+.logo {
+  width: 140px;
+  border-radius: 60px;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 490px;
+  font-weight: 600;
+  padding-right: 40px;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(90, 87, 87);
+  transition: all 0.5s;
+}
+
+/*set the nav bar elements opacity to half transparent*/
+.inactive {
+  opacity: 0.4;
+}
+
+.open-account {
+  background-color: #29bb4bcc;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 18px;
+}
+
+/*header section styles*/
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 450px;
+  padding: 15px 20px;
+  padding-bottom: 80px;
+}
+
+.labels-container {
+  max-width: 580px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+.title {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.green {
+  background-color: #29bb4bcc;
+  color: rgb(63, 62, 62);
+  padding: 15px 17px;
+  clip-path: polygon(10% 5%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.sub-title {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.learn-more {
+  font-size: 21px;
+  font-weight: 500;
+  color: #29bb4bcc;
+  transition: all 0.5s;
+}
+
+.learn-more:hover {
+  opacity: 0.6;
+  text-shadow: 1px 1px 2px #29bb4bcc;
+}
+
+.add-pic {
+  width: 500px;
+}

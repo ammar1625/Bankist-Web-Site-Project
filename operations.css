@@ -1,0 +1,119 @@
+
+/*operations section styles*/
+
+.operations-container
+{
+   width: 100%;
+  /* border-top: solid 1px black;*/
+    transition: all 1.5s;
+   padding-top: 120px; /*this is gonna be used to achieve that smooth viual effect when features section shows up*/
+}
+
+.operations-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 510px;
+    padding: 100px 0;
+    border-top: solid 2px rgba(58, 57, 57, 0.473);
+    transition: all 5s;
+}
+
+.description-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    height: 160px;
+    width: 680px;
+    padding: 15px 0;
+}
+.tabs-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tabs
+{
+    background-color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.tab-body
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 80%;
+}
+
+.tabs-text-container
+{
+    width: 580px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.tabs-buttons-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    position: relative;
+    top: -50px;
+}
+
+.btn
+{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "roboto";
+    position: absolute;
+    color: rgb(61, 60, 60);
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+.btn-transfer
+{
+    top: -40px;
+    left: 0px;
+    background-color: rgb(255, 203, 3);
+}
+
+.btn-loan
+{
+    top: -20px;
+    left: 220px;
+    background-color: rgb(94, 197, 118);
+
+}
+
+.btn-close
+{
+    top: -20px;
+    left: 410px;
+    background-color: rgb(255, 88, 95);
+
+}
